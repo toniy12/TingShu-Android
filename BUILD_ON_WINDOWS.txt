@@ -1,0 +1,12 @@
+听书 APP 0.3.0 Windows 编译步骤
+
+1. 安装 Android Studio 稳定版。
+2. 安装 JDK 17（Android Studio 自带 JBR 17 也可）。
+3. 打开 SDK Manager，安装 Android SDK Platform 35、Android SDK Build-Tools 35.x、Platform Tools。
+4. 解压 TingShu-Android-Project-D.zip。
+5. Android Studio -> Open -> 选择解压后的 TingShu 文件夹（包含 settings.gradle.kts）。
+6. 首次 Gradle Sync 需要网络；按提示下载 Android Gradle Plugin 8.9.2、Kotlin 2.1.20 及依赖。
+7. Build -> Build Bundle(s) / APK(s) -> Build APK(s)。
+8. APK 路径：TingShu/app/build/outputs/apk/debug/app-debug.apk。
+
+本工程源码版本 0.3.0。当前交付为源码 ZIP，未在本环境生成/验证 APK，因为此环境未安装 Android SDK 和 Gradle。
